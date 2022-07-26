@@ -71,6 +71,11 @@ ul li a:hover{
     width: 100%;
     display: block;
 }
+
+.contact{
+    color: white;
+    padding: 20px;
+}
 @media only screen and (max-width: 600px){
     .overlay-text{
         font-size: 3rem;
