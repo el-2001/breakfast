@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Oswald&display=swap');
+
+body{
+    margin: 0px;
+    font-size: 16px;
+    line-height: 2;
+    background-color:hsl(265.3, 45.36%, 35.88%);
+    font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    color: white;
+    position:sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: hsl(266.86, 53.3%, 61.37%); 
+}
+nav ul{
+    
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ ul li a{
+    color: white;
+padding: 20px;
+text-decoration: none;
+font-size: 1.1rem;
+
+
+}
+ul li a:hover{
+    color: hsl(266.57, 85.37%, 16.08%);
+}
+.cooking-video{
+    border: black solid 10px;
+    max-height: 400px;
+    overflow: hidden;
+}
+.cooking-video video{
+    position: relative;
+   
+    width: 100%;
+    display: block;
+}
+.overlay-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    color: white;
+    font-size: 5rem;
+}
+.menu{ 
+    width: 500px;
+    margin: 100px auto 0px  auto;
+    border: 10px solid hsl(266.57, 85.37%, 16.08%);
+}
+.menu img{
+    width: 100%;
+    display: block;
+}
+@media only screen and (max-width: 600px){
+    .overlay-text{
+        font-size: 3rem;
+        
+    }
+    ul li a{
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .menu{
+        width: 200px;
+    }
+}
